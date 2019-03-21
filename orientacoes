@@ -25,4 +25,7 @@ O ambiente está pronto. Basta iniciar o apache através do XAMPP e acessar a apli
 Para acessar a aplicação, basta acessar http://127.0.0.1/todo/public/
 
 
+A aplicação foi hospedada no heroku, segue o link: http://josue-todolist.herokuapp.com
+
+
 
