@@ -11,7 +11,7 @@
 			</div>
 			<div class="form-group">
 				<input type="submit" value='Save Changes' class="btn btn-success">
-				<a href="{{ route('tasks.index') }}" class="btn btn-secondary float-right">Go Back!</a>
+				<a href="{{ route('tasks.loadView',['mode' => $mode] ) }}" class="btn btn-secondary float-right">Go Back!</a>
 			</div>
 		</form>
 	</div>
