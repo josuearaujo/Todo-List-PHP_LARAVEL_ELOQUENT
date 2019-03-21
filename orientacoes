@@ -1,0 +1,28 @@
+Além dos itens obrigatórios A e B, foram implementados os itens adicionais C, D e H.
+
+Foram implementadas todas os recursos da TodoList que tínhamos como exemplo.
+
+Para executar a aplicação em uma ambiente local, é preciso instalar o XAMPP e o Postgres.
+A versão do Postgres que eu utilizei foi a 11.2.
+Baixar todos os arquivos e pastas desse projeto e colocar na pasta "xampp/htdocs/todo".
+ 
+Para fazer a integração do Postgres com o Xampp, algumas configurações precisam ser feitas.
+Segue um exemplo de tutorial para isso: 
+http://subhra.me/install-postgresql-in-xampp-on-windows-and-integrate-phppgadmin/
+
+Para auxiliar na criação do ambiente, utilizei o composer.
+https://getcomposer.org/
+
+As dependencias do projeto estão listadas no arquivo composer.json, após instalar o composer, basta seguir até a pasta do projeto e executar no terminal o comando "composer update". Ele irá buscar todas as dependências necessárias para o funcionamento da aplicação.
+
+O próximo passo é configurar o arquivo .env que fica na pasta raiz do projeto. É nele onde devem ser colocadas as informações para conexão com o banco, inclusive o database que deve ter sido previamente criado.
+
+Por último, também no terminal, utilizar o comando "php artisan migrate" para criar as tabelas no seu banco de dados local.
+
+O ambiente está pronto. Basta iniciar o apache através do XAMPP e acessar a aplicação.
+
+
+Para acessar a aplicação, basta acessar http://127.0.0.1/todo/public/
+
+
+
