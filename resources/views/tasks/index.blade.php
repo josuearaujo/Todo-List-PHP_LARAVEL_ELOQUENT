@@ -9,7 +9,7 @@
 
 
 			<div class="col-md-9">
-				<input type="text" name='newTaskName' class='form-control'>
+				<input type="text" name='newTaskName' class='form-control' placeholder="Add a new todo...">
 			</div>
 
 			<div class="col-md-3">
